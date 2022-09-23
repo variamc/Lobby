@@ -14,6 +14,7 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven { url = uri ("https://jitpack.io") }
+    maven { url = uri ("https://repo.codemc.io/repository/maven-snapshots/") }
 }
 
 dependencies {
@@ -29,6 +30,11 @@ dependencies {
             branch = "master"
         }
     }
+
+    // KMongo
+    implementation("org.litote.kmongo", "kmongo-core", "4.2.7")
+    implementation("org.litote.kmongo:kmongo-coroutine-core:4.2.7")
+    implementation("org.litote.kmongo", "kmongo-serialization-mapping", "4.2.7")
 
 }
 
