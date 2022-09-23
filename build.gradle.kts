@@ -1,3 +1,4 @@
+
 val javaVersion = 17
 
 plugins {
@@ -12,7 +13,7 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
+    maven { url = uri ("https://jitpack.io") }
 }
 
 dependencies {
@@ -23,7 +24,12 @@ dependencies {
     implementation("net.axay:kspigot:1.19.0")
 
     // CoreAPI Dependency
-    implementation("com.github.variamc:CoreAPI:master-SNAPSHOT")
+    implementation("de.variamc:coreapi") {
+        version {
+            branch = "master"
+        }
+    }
+
 }
 
 
