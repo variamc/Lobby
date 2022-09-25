@@ -68,7 +68,7 @@ object LobbyItems {
             val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.profile"))
             meta {
                 name = parsedMessage
-                (this as SkullMeta).texture(player.name)
+                (this as SkullMeta).owningPlayer = player
             }
         }
 
