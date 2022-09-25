@@ -1,5 +1,6 @@
 package de.variamc.lobby.functionality
 
+import de.variamc.lobby.events.JoinPlayerReset
 import net.axay.kspigot.event.listen
 import net.axay.kspigot.extensions.bukkit.isGroundSolid
 import net.axay.kspigot.runnables.taskRunLater
@@ -33,6 +34,7 @@ object ElytraLauncher {
 
                 taskRunLater(20, sync = false) {
                     it.player.isGliding = true
+                    JoinPlayerReset.resetPlayer(it.player)
                 }
             } else if (
                 it.material == Material.FEATHER &&

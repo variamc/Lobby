@@ -1,8 +1,10 @@
 package de.variamc.lobby
 
-import net.axay.kspigot.chat.KColors
-import net.axay.kspigot.extensions.broadcast
+import de.variamc.lobby.events.OnJoinManager
+import de.variamc.lobby.functionality.ElytraLauncher
+import de.variamc.lobby.functionality.LobbyItems
 import net.axay.kspigot.extensions.bukkit.info
+import net.axay.kspigot.extensions.bukkit.register
 import net.axay.kspigot.extensions.bukkit.success
 import net.axay.kspigot.extensions.console
 import net.axay.kspigot.extensions.onlinePlayers
@@ -21,10 +23,17 @@ class Lobby : KSpigot() {
 
     override fun load() {
         INSTANCE = this
+
         console.info("Loading Lobby Plugin...")
     }
 
     override fun startup() {
+        OnJoinManager.enable()
+        LobbyItems.enable()
+        ElytraLauncher.enable()
+
+
+
         onlinePlayers.forEach { it.sound(Sound.BLOCK_BEACON_ACTIVATE) }
 
         console.success("Lobby plugin enabled.")

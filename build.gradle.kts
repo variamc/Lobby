@@ -1,4 +1,3 @@
-
 val javaVersion = 17
 
 plugins {
@@ -24,18 +23,7 @@ dependencies {
     // KSpigot Dependency
     implementation("net.axay:kspigot:1.19.0")
 
-    // CoreAPI Dependency
-    implementation("de.variamc:coreapi") {
-        version {
-            branch = "master"
-        }
-    }
-
-    // KMongo
-    implementation("org.litote.kmongo", "kmongo-core", "4.2.7")
-    implementation("org.litote.kmongo:kmongo-coroutine-core:4.2.7")
-    implementation("org.litote.kmongo", "kmongo-serialization-mapping", "4.2.7")
-
+    implementation("com.github.variamc:CoreAPI:1.0.5")
 }
 
 
@@ -64,9 +52,14 @@ bukkit {
         "VariaMC",
         "Kaseax"
     )
-    main = "$group.de.variamc.lobby.Lobby"
+    main = "$group.lobby.Lobby"
     version = version.toString()
     libraries = listOf(
-        "net.axay:kspigot:1.19.2"
+        "net.axay:kspigot:1.19.0"
     )
+    commands {
+        register("formatting") {
+            description = "Zeigt dir an, welche Formatierungsoptionen du hast."
+        }
+    }
 }

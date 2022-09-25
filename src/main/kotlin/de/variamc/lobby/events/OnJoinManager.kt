@@ -1,6 +1,5 @@
-package de.variamc.lobby.eventManager.joinServer
+package de.variamc.lobby.events
 
-import de.variamc.lobby.data.database.holder.WarpsHolder
 import net.axay.kspigot.event.listen
 import net.axay.kspigot.runnables.async
 import org.bukkit.event.EventPriority

@@ -1,4 +1,4 @@
-package de.variamc.lobby.eventManager.joinServer
+package de.variamc.lobby.events
 
 import net.axay.kspigot.extensions.bukkit.feedSaturate
 import net.axay.kspigot.extensions.bukkit.heal
