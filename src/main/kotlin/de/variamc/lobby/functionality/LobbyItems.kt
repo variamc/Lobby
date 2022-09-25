@@ -1,16 +1,22 @@
 package de.variamc.lobby.functionality
 
+import de.variamc.lobby.utils.texture
 import net.axay.kspigot.chat.KColors
 import net.axay.kspigot.chat.literalText
 import net.axay.kspigot.event.listen
 import net.axay.kspigot.items.*
 import net.axay.kspigot.utils.hasMark
 import net.axay.kspigot.utils.mark
+import net.kyori.adventure.text.Component
+import net.kyori.adventure.text.minimessage.MiniMessage
+import org.apache.commons.lang.LocaleUtils
 import org.bukkit.Material
 import org.bukkit.entity.Player
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.event.player.PlayerRespawnEvent
 import org.bukkit.inventory.ItemStack
+import org.bukkit.inventory.meta.SkullMeta
+import java.util.ResourceBundle
 
 /**
  * Class created by Kaseax on 2022
@@ -19,61 +25,57 @@ object LobbyItems {
 
     fun givePlayer(player: Player) {
 
+        val resourceBundle: ResourceBundle = ResourceBundle.getBundle("lang.lobby", LocaleUtils.toLocale("en_US"))
+        //val resourceBundle: ResourceBundle = ResourceBundle.getBundle("lang.lobby", LocaleUtils.toLocale(LanguageAPI.getLanguage(player.getUniqueId().toString())
+        var mm = MiniMessage.miniMessage();
+
         player.inventory.clear()
 
-        val contents = HashMap<Int, ItemStack>()
-
-        contents[8] = itemStack(Material.LODESTONE) {
+        val navigator = itemStack(Material.MUSIC_DISC_CAT) {
+            amount = 1
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.navigator"))
             meta {
-                name = literalText("${KColors.CORAL}MENÜ")
-                addLore {
-                    "Rechtsklicke dieses Item, um das Hauptmenü zu öffnen.".toLoreList(KColors.CHARTREUSE)
-                }
+                name = parsedMessage
             }
-            mark("maingui")
         }
 
-        contents[4] = itemStack(Material.HEART_OF_THE_SEA) {
+        val playerHider = itemStack(Material.TOTEM_OF_UNDYING) {
+            amount = 1
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.playerhider"))
             meta {
-                name = literalText("${KColors.CORAL}Warps")
-                addLore {
-                    "Rechtsklicke dieses Item, um die Warps zu öffnen.".toLoreList(KColors.CHARTREUSE)
-                }
+                name = parsedMessage
             }
-            mark("warps")
         }
 
-        contents[1] = itemStack(Material.CARROT_ON_A_STICK) {
+        val gadget = itemStack(Material.FIREWORK_STAR) {
+            amount = 1
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.nogadget"))
             meta {
-                name = literalText("${KColors.ORANGE}Pets")
-                addLore {
-                    "Rechtsklicke dieses Item, um die Pets zu öffnen.".toLoreList(KColors.CHARTREUSE)
-                }
+                name = parsedMessage
             }
-            mark("pets")
         }
 
-        val playerInv = player.inventory
-        contents.forEach { (index, item) ->
-            item.makeLobbyItem()
-            playerInv.setItem(index, item)
+        val inventory = itemStack(Material.HOPPER_MINECART) {
+            amount = 1
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.inventory"))
+            meta {
+                name = parsedMessage
+            }
         }
 
+        val profile = itemStack(Material.SKELETON_SKULL) {
+            amount = 1
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.profile"))
+            meta {
+                name = parsedMessage
+                (this as SkullMeta).texture(player.name)
+            }
+        }
+
+        player.inventory.setItem(1, navigator)
+        player.inventory.setItem(2, playerHider)
+        player.inventory.setItem(4, gadget)
+        player.inventory.setItem(6, inventory)
+        player.inventory.setItem(7, profile)
     }
-
-    fun enable() {
-
-        listen<PlayerJoinEvent> {
-            givePlayer(it.player)
-        }
-
-        listen<PlayerRespawnEvent> {
-            givePlayer(it.player)
-        }
-
-    }
-
 }
-
-val ItemStack.isLobbyItem get() = hasMark("lobbyitem")
-fun ItemStack.makeLobbyItem() = apply { mark("lobbyitem") }
