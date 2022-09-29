@@ -26,9 +26,9 @@ object ElytraLauncher {
             ) {
                 it.player.velocity = it.player.velocity.setY(10)
 
-                it.player.inventory.chestplate = ItemStack(Material.ELYTRA).makeLobbyItem()
+                it.player.inventory.chestplate = ItemStack(Material.ELYTRA)
                 if (!it.player.inventory.contains(Material.FEATHER))
-                    it.player.inventory.addItem(ItemStack(Material.FEATHER).makeLobbyItem())
+                    it.player.inventory.addItem(ItemStack(Material.FEATHER))
 
                 it.player.sound(Sound.ITEM_ARMOR_EQUIP_ELYTRA)
 

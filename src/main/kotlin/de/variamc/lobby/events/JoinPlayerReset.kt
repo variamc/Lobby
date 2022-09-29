@@ -12,6 +12,7 @@ object JoinPlayerReset {
     fun resetPlayer(player: Player) {
         player.feedSaturate()
         player.heal()
+        player.inventory.clear()
         for (potionEffect in player.activePotionEffects) {
             player.removePotionEffect(potionEffect.type)
         }

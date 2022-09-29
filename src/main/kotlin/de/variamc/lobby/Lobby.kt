@@ -1,6 +1,6 @@
 package de.variamc.lobby
 
-import de.variamc.lobby.events.OnJoinManager
+import de.variamc.lobby.events.joinListener
 import de.variamc.lobby.functionality.ElytraLauncher
 import de.variamc.lobby.functionality.LobbyItems
 import net.axay.kspigot.extensions.bukkit.info
@@ -23,15 +23,12 @@ class Lobby : KSpigot() {
 
     override fun load() {
         INSTANCE = this
-
         console.info("Loading Lobby Plugin...")
     }
 
     override fun startup() {
-        OnJoinManager.enable()
-        LobbyItems.enable()
+        joinListener()
         ElytraLauncher.enable()
-
 
 
         onlinePlayers.forEach { it.sound(Sound.BLOCK_BEACON_ACTIVATE) }
@@ -43,7 +40,6 @@ class Lobby : KSpigot() {
         console.info("Shutting down Lobby plugin...")
 
         onlinePlayers.forEach { it.sound(Sound.BLOCK_BEACON_DEACTIVATE) }
-
         console.success("Shut down Lobby plugin.")
     }
 

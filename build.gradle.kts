@@ -5,7 +5,9 @@ plugins {
     id("io.papermc.paperweight.userdev") version "1.3.6"
     id("net.minecrell.plugin-yml.bukkit") version "0.5.1"
     id("xyz.jpenilla.run-paper") version "1.0.6"
+    id("idea")
 }
+
 
 group = "de.variamc"
 version = "1.0-SNAPSHOT"
@@ -14,6 +16,7 @@ repositories {
     mavenCentral()
     maven { url = uri ("https://jitpack.io") }
     maven { url = uri ("https://repo.codemc.io/repository/maven-snapshots/") }
+    maven { url = uri ("https://repo.kaseax.systems/repo/maven2/") }
 }
 
 dependencies {
@@ -23,7 +26,7 @@ dependencies {
     // KSpigot Dependency
     implementation("net.axay:kspigot:1.19.0")
 
-    implementation("com.github.variamc:CoreAPI:1.0.5")
+    implementation("io.github.variamc:CoreAPI:1.1-SNAPSHOT")
 }
 
 

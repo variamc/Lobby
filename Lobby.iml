@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/kotlin" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.axay/kspigot/1.19.0/69d55c14556df3f7f9187f222ed56cbbf677b512/kspigot-1.19.0-dev.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.axay/kspigot/1.19.0/d40c76dace7df4ec23194c8cfc2e7f71e45a45b5/kspigot-1.19.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.2/c2f7205a38888f9c96150a5f42bec9d4cb16f059/kotlinx-coroutines-core-jvm-1.6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.2/ee68083d08609c5c3cea32bb88f57d31ffe1672e/kotlinx-coroutines-core-jvm-1.6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.6.2/acf5ee3be3fdde5b2c8d7c5fa64af51f5d06317e/kotlinx-coroutines-jdk8-1.6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.6.2/14fbb83600b59029ac05c25165a34cd2bedf173d/kotlinx-coroutines-jdk8-1.6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.7.10/d70d7d2c56371f7aa18f32e984e3e2e998fe9081/kotlin-stdlib-jdk8-1.7.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.7.10/97d7fb597c1b9213efd8dc35845949f79bfcb054/kotlin-stdlib-jdk8-1.7.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.github.variamc/CoreAPI/1.0-SNAPSHOT/567fff3e4191377d5839e2b4457c198e7d90a6d9/CoreAPI-1.0-SNAPSHOT.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.github.variamc/CoreAPI/1.0-SNAPSHOT/edbd503e2c22320a796b951dec6c650c53cfa788/CoreAPI-1.0-SNAPSHOT-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/caches/paperweight/ivyRepository/io/papermc/paper/paper-server/userdev-1.19.2-R0.1-SNAPSHOT/paper-server-userdev-1.19.2-R0.1-SNAPSHOT.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/caches/paperweight/ivyRepository/io/papermc/paper/paper-server/userdev-1.19.2-R0.1-SNAPSHOT/paper-server-userdev-1.19.2-R0.1-SNAPSHOT-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.10/1ef73fee66f45d52c67e2aca12fd945dbe0659bf/kotlin-stdlib-jdk7-1.7.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.10/78b7fc534a411952d7579a61d02b70fdd34aa56c/kotlin-stdlib-jdk7-1.7.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.3.3/6298c404c1159685fb657f15fa5b78630da58c96/kotlinx-serialization-json-jvm-1.3.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.3.3/bbcb35ed92786f0456054f4b9ca14795f2fcc04d/kotlinx-serialization-json-jvm-1.3.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.3.3/3c22103b5d8e3c262db19e85d90405ca78b49efd/kotlinx-serialization-core-jvm-1.3.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.3.3/8d93ed67e704f2faf45b2b97a2729b94254072d8/kotlinx-serialization-core-jvm-1.3.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.10/d2abf9e77736acc4450dc4a3f707fa2c10f5099d/kotlin-stdlib-1.7.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.10/a47f6071d3ba1c695174371ffeb95ac2df2089a5/kotlin-stdlib-1.7.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/5.8.5/1d0ec654d820741327f5a9229d513732a4b7ce50/oshi-core-5.8.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/5.8.5/2b307812731b13ff8b133a96322b0a8cf9b2879a/oshi-core-5.8.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/5.0.28/e2157e236e529aff80a5fc3ccb506e56d46b130b/datafixerupper-5.0.28.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/5.0.28/db75a9299540c2b371afa8ee048dcd396d4591fc/datafixerupper-5.0.28-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.19.2-R0.1-SNAPSHOT/e188c17118ddad8c2b30a2ed5664b6af0281662b/paper-api-1.19.2-R0.1-SNAPSHOT.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.19.2-R0.1-SNAPSHOT/5140a1479fe075a4a8d34fea0175fff12578b849/paper-api-1.19.2-R0.1-SNAPSHOT-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/34a32cc95e1c5f12176cf0a8aeeff087ff8a17e0/bungeecord-chat-1.16-R0.4-deprecated+build.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/e69c89b6fd7f97a2a8a396b7fe9fb762524f97c6/bungeecord-chat-1.16-R0.4-deprecated+build.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-logger-slf4j/4.11.0/22414f4f37e334ce4b8ca042108922554794b1d1/adventure-text-logger-slf4j-4.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-logger-slf4j/4.11.0/aadcd0a6ae42aef96a69f2fa57f20d0253c24d7f/adventure-text-logger-slf4j-4.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-minimessage/4.11.0/bae2b3df851f0997f8fd3f56aa1a9987d7b54792/adventure-text-minimessage-4.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-minimessage/4.11.0/740302169b0c0e85175171f033ddbdb4519f9695/adventure-text-minimessage-4.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-serializer-legacy/4.11.0/de25209fbd6a08d47342f97b99c0c52cc4acc247/adventure-text-serializer-legacy-4.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-serializer-legacy/4.11.0/a73d51e4c66e2d442fc06b54e7007c1b4007e90f/adventure-text-serializer-legacy-4.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-serializer-plain/4.11.0/a15eb311b588ce2b19b410b53df696fe058a5076/adventure-text-serializer-plain-4.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-serializer-plain/4.11.0/9155c696fbfdfe1a79fda5156085d1af7fc026b9/adventure-text-serializer-plain-4.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-api/4.11.0/925ce8f663bab063d522de8a895ac152a023dab8/adventure-api-4.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-api/4.11.0/c599b5cbcf17aba59de48c5cb360e4cbcf5122ac/adventure-api-4.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-key/4.11.0/6ac82c19a7c677f0918369cc3610e89f1a2f7d66/adventure-key-4.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-key/4.11.0/182a88772f64e17b1e31217eec97fe8d6903509/adventure-key-4.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-serializer-gson/4.11.0/aa74697a6d1e1c225a40ead4c5d07bee77d19164/adventure-text-serializer-gson-4.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/adventure-text-serializer-gson/4.11.0/4a1710f25b6d030d9546ed8d4c74a9e15d5cdb99/adventure-text-serializer-gson-4.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/8a432c1d6825781e21a02db2e2c33c5fde2833b9/gson-2.8.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/e1167849f172a0b75d6ffe4e4b2f34b9259795bb/gson-2.8.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-jre/119ea2b2bc205b138974d351777b20f02b92704b/guava-31.0.1-jre.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-jre/d34772c01bd6637982d1aafe895c4fcd8b42e139/guava-31.0.1-jre-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.11.49/2e3055ec2a017c7f94b79744b4a68b65695a118c/authlib-3.11.49.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.11.49/6feee4b25a47d4bc8492b062a841d437045cf154/authlib-3.11.49-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-mojangapi/1.19.2-R0.1-SNAPSHOT/8566e77310d4284de17ec38df39261d041c29907/paper-mojangapi-1.19.2-R0.1-SNAPSHOT.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-mojangapi/1.19.2-R0.1-SNAPSHOT/524a6aa7651a8b759ce68ee8de4090b1c5eb66b6/paper-mojangapi-1.19.2-R0.1-SNAPSHOT-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/c1ef1234282716483c92183f49bef47b1a89bfa9/brigadier-1.0.18.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/f93ce897789cb28518ebb7a8a6bc3946922bc8b6/brigadier-1.0.18-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.2.24/c876796229b2ef5120f186eab5acc870699d3b9/javabridge-1.2.24.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.2.24/a9ca59eebc32c5c771075df31a0b6e31d2ed8565/javabridge-1.2.24-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/logging/1.0.0/f6ca3b2eee0b80b384e8ed93d368faecb82dfb9b/logging-1.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.mojang/logging/1.0.0/600952f78e73b97b05b3a6e1a9c6ef049cfe0112/logging-1.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.velocitypowered/velocity-native/3.1.2-SNAPSHOT/88696cf74a8fca7899197970d9e9acdc5905fc5a/velocity-native-3.1.2-SNAPSHOT.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/2ef0187124bbfc7aed3038d4ffdd2241e8992937/commons-io-2.11.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.77.Final/4479b91838a2e5fcbc0fc8c1829182451573eba/netty-all-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-haproxy/4.1.77.Final/edb659ffd15d1418955162ad64a33afbebb14ec1/netty-codec-haproxy-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-haproxy/4.1.77.Final/124418a8f488ffe312470e660a5bf00c246342e9/netty-codec-haproxy-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.77.Final/47a81089de03635a27f509f3e4e13386ae1db275/netty-handler-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.77.Final/5ba8b7a0587082e623f0f4817a6be1fe781bc7ac/netty-handler-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.77.Final/4efc5f59335301d6ba0d7cd31dd10651119b03c8/netty-codec-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.77.Final/686609be4b4aac724b234a75da054d9999fac9c7/netty-codec-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.77.Final/272f94f6ff601d2d2d88836d484044d5de6ab5ac/netty-transport-native-epoll-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.77.Final/e7e1b6e3608ce218acda7ec3dc6fb77938f5910/netty-transport-native-epoll-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.77.Final/dd70dbccbcf98382223a59044f3c08d8e9920cad/netty-transport-classes-epoll-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.77.Final/15d6dcb08a2ae46ff1bf7cfc7b686aa76844079/netty-transport-classes-epoll-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.77.Final/c95d53486414b3270d08057957c5da8e0c37e4eb/netty-transport-native-unix-common-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.77.Final/7132bf861874ca8ebda98367223d8833546db1ee/netty-transport-native-unix-common-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.77.Final/2a3373bbd20d520c821f210bd5ee886788512043/netty-transport-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.77.Final/51ddcf7f16ff13e71e285ebad2f511188c134205/netty-transport-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.77.Final/d97571f99e5e739d86824d0df99f35d295276b5f/netty-buffer-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.77.Final/75b24da85044450fc95722243b4a93fa0aa627e3/netty-buffer-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.77.Final/4a239dbf8d8bb5f98aa51462c35011c0516395fd/netty-resolver-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.77.Final/5439471197f64a381b0201571fa52ad34533ed41/netty-resolver-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.77.Final/ea0fc20f4e6178966b9d62017b7fcb83dfe0e713/netty-common-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.77.Final/4e7168bc86be425681048e6519f5a666521fa82a/netty-common-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.6/76f95700418a68fbc4ac050525261f05dc681ca1/fastutil-8.5.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.6/cae16d296ddc343bfb4e20ef67fbcef07fca40e/fastutil-8.5.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.fabricmc/mapping-io/0.3.0/f7c41de27b01e622ba85f72794012bf7447e4156/mapping-io-0.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.fabricmc/mapping-io/0.3.0/7002ec63184af7dfa48b68595be6388bc847f5b6/mapping-io-0.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.10.0/fbed7d9669dba47714ad0d4f4454290a997aee69/jna-platform-5.10.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.10.0/1ffcbea712326d2ada01104eb577d90a8ebf6097/jna-platform-5.10.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.10.0/7cf4c87dd802db50721db66947aa237d7ad09418/jna-5.10.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.10.0/ff0287cd964354b358d49ad41e5bae9c7d1b4ae/jna-5.10.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.3.0/b562e9bb61235c9520e26282cdee71f8f802d1fc/terminalconsoleappender-1.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.3.0/2fd4d796402a408af0d26c848e02ec8f91dceae7/terminalconsoleappender-1.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/950831646d014c9162999019a3cb17d5fc01ac0d/jopt-simple-5.0.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/198b882fdc2c72c89c63401d946f6ba46c3acea3/commons-lang3-3.12.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.1/779f60f3844dadc3ef597976fcb1e5127b1f343d/log4j-core-2.17.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.1/311c00d3764db7fa3ba5f26d0acb5840e52454aa/log4j-core-2.17.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-iostreams/2.17.1/6ebd6d2186fae85d294b5d1994d711242d314427/log4j-iostreams-2.17.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-iostreams/2.17.1/5b85a8190d3b51e27fdb8c32d55e1148bff872b1/log4j-iostreams-2.17.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.17.1/ca499d751f4ddd8afb016ef698c30be0da1d09f7/log4j-slf4j18-impl-2.17.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.17.1/f1063ef78e327a4718e184153fa75df46ab2cf53/log4j-slf4j18-impl-2.17.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.1/d771af8e336e372fb5399c99edabe0919aeaf5b2/log4j-api-2.17.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.1/d23d37cc41300a7f6eba7813855dbb224e2a3177/log4j-api-2.17.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal-jansi/3.21.0/27086834f4d9951f9c2c3b299782e114b56fcf51/jline-terminal-jansi-3.21.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal-jansi/3.21.0/c4947a3034011d1476c3777ef837fcab83c51c86/jline-terminal-jansi-3.21.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.3/1f2a432d1212f5c352ae607d7b61dcae20c20af5/asm-commons-9.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.3/1692e21847cf3db0b24e1938553cab84f50bf03d/asm-commons-9.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.3/4b071f211b37c38e0e9f5998550197c8593f6ad8/asm-analysis-9.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.3/fbcbbfcd8c350fea66dd36e63b1e118d4ab3370c/asm-analysis-9.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.3/78d2ecd61318b5a58cd04fb237636c0e86b77d97/asm-tree-9.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.3/cc1987e5e291659c366c4b9be35d105d40a518a/asm-tree-9.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.3/8e6300ef51c1d801a7ed62d07cd221aca3a90640/asm-9.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.3/ce26e415ccafa10c6624a07bdb38d969110f568f/asm-9.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/83b0359d847ee053d745be7ec0d8e9e8a44304b4/slf4j-api-1.8.0-beta4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/b36a694fefcf7c2a274765143dc63e86389b33d1/slf4j-api-1.8.0-beta4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.spongepowered/configurate-yaml/4.1.2/f726180c21ec387be5b8a2e04d916443c4046207/configurate-yaml-4.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.spongepowered/configurate-yaml/4.1.2/b7ad3b2533294a4bfdf23b4566f77e8550d466ef/configurate-yaml-4.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.10/bac80c520d0a9e3f3673bc2658c6ed02ef45a76a/kotlin-stdlib-common-1.7.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.10/60408164a8fbfb0ae8febb3413e2f4bf5a06c97f/kotlin-stdlib-common-1.7.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/examination-string/1.3.0/6f34afef5c54ccce4996bc321abf77518b55b4bd/examination-string-1.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/examination-string/1.3.0/d06d07677cf2022bdf38136ba550aea9852cc1bd/examination-string-1.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/examination-api/1.3.0/8a2d185275307f1e2ef2adf7152b9a0d1d44c30b/examination-api-1.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/net.kyori/examination-api/1.3.0/24ee397e9360897e1a5053e269be691abc611ca2/examination-api-1.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/ca5088d615accaabd2aa956b10b236a4e75cfccb/annotations-23.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.spongepowered/configurate-core/4.1.2/d6728b04738e73847f6a26349cf4368362feab97/configurate-core-4.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.spongepowered/configurate-core/4.1.2/69230783de78bffde633a419569f684960531f56/configurate-core-4.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.21.0/55aaf38ec65c7aee19697257d644493c06dee1fe/checker-qual-3.21.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.21.0/667fc6fda7a4c89fa2a768675f3faa0217810ec3/checker-qual-3.21.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/458d9042f7aa6fa9a634df902b37f544e15aacac/error_prone_annotations-2.7.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/2ca80bf7ac820fce6c743561b550c8bfb6c87c57/error_prone_annotations-2.7.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.77.Final/a0a9bc85703efbab626fb8642e08e221b59dc604/netty-codec-dns-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.77.Final/d5d286604f917cb32aa1956658270e4dad901887/netty-codec-dns-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.77.Final/c5ac5afa9af5b4dc0e8bdbfd686979af77ebdb3c/netty-codec-http-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.77.Final/bd49f0a11d151ea638704cb96ed202977cfab3a0/netty-codec-http-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.77.Final/9e58eeeacc74f8ad2b2acb240b1f01d2c40159d7/netty-codec-http2-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.77.Final/327b2fabc973408fbca1e6edc8255fd0779ae80/netty-codec-http2-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-memcache/4.1.77.Final/5c8ece9583530efd4cd2f1927407e2e5a9529c7/netty-codec-memcache-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-memcache/4.1.77.Final/5b63b52adb5303ab012f5b40653bab3d51b895b5/netty-codec-memcache-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-mqtt/4.1.77.Final/23c950e5cb1b6cbccc0b131a1adea658debc838/netty-codec-mqtt-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-mqtt/4.1.77.Final/e6ed0d399b788db56563f442089d4ee917e05e5d/netty-codec-mqtt-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-redis/4.1.77.Final/a0f93e362d70eaf4fae201eef7f50e99a4d595d4/netty-codec-redis-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-redis/4.1.77.Final/67d1cbb063d582a249693071509e9245b6fc26e2/netty-codec-redis-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-smtp/4.1.77.Final/9d6ce2a17b4f39b0bc75c5cb00f75eb416f61177/netty-codec-smtp-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-smtp/4.1.77.Final/62213e4ecb26742e85a40314d77e9315a599f6d7/netty-codec-smtp-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.77.Final/17bb510aa545fc73a18ab804c594593e32de1a1d/netty-codec-socks-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.77.Final/dcfb6620f6cbaf4e3ddaab5cc7207db7bdcb66b7/netty-codec-socks-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-stomp/4.1.77.Final/2c6209f93efd1e4274bcef909c811acd00f605d0/netty-codec-stomp-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-stomp/4.1.77.Final/26c2d892a51bbb696107e7a4caf8fe1de7f64602/netty-codec-stomp-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-xml/4.1.77.Final/3c8bf6a7dc74f5c649c43adb5ef7f1337c3616c6/netty-codec-xml-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-xml/4.1.77.Final/45937fcf2c4a3afcc992c118c0a2457564fe741a/netty-codec-xml-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.77.Final/d1ac0d95b770098c46b6679fbfd417ae277012d4/netty-handler-proxy-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.77.Final/4a64948b1a03541a51d47d8c5e9dba35dcdbc1d4/netty-handler-proxy-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.77.Final/aad506ab6804e2720771634e2de2a065fa678126/netty-resolver-dns-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.77.Final/6a3522b705ca6cd98f971eaa7cadd913ded10c02/netty-resolver-dns-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-rxtx/4.1.77.Final/1760ec139dea5d6421023867b9984f777636592b/netty-transport-rxtx-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-rxtx/4.1.77.Final/4d219b0d04ea96f55b94c318693c24cab36ee228/netty-transport-rxtx-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-sctp/4.1.77.Final/fca40f6334a3b567b65f87080d1df6e419ff0933/netty-transport-sctp-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-sctp/4.1.77.Final/fec95b83456e9b22193b8176e2231b4760a46dc8/netty-transport-sctp-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-udt/4.1.77.Final/c0a5981ee7e9e4bf02d0bbf9882edd31b4b278a2/netty-transport-udt-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-udt/4.1.77.Final/6b7a6bbb4366f496eb4efd601bd82fa6c351bd64/netty-transport-udt-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-kqueue/4.1.77.Final/d82618d83946911d0550fcccc87f18de85d7ade9/netty-transport-classes-kqueue-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-kqueue/4.1.77.Final/68120100d8c1268220aa780132b3feb9d448e8da/netty-transport-classes-kqueue-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-classes-macos/4.1.77.Final/60a6b7a3d81982bcf98db89c20b04f870d2d5ea0/netty-resolver-dns-classes-macos-4.1.77.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-classes-macos/4.1.77.Final/96c74b4cf476399d9fd749eb84b9dc83e685911c/netty-resolver-dns-classes-macos-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.20.0/8f15415b022a25b473e8e16c28ae913186ffb9c4/jline-reader-3.20.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.20.0/94a832964241f634f3b4a872e55241678227f28b/jline-reader-3.20.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/2.4.0/321c614f85f1dea6bb08c1817c60d53b7f3552fd/jansi-2.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/2.4.0/2548bc6e2c7a7f28cc9c6d63ee068e68f387f924/jansi-2.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.21.0/47579f05a0002f9c561cb10dcf2f744976c49ac/jline-terminal-3.21.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.21.0/c91da3154b329bc6648f00282cfbbc7b2b951364/jline-terminal-3.21.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.33/2cd0a87ff7df953f810c344bdf2fe3340b954c69/snakeyaml-1.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.33/97257a0e34679175cc00444a64fa42d6bb53e23f/snakeyaml-1.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/15bba08e3a239d54b68209c001f9c911559d2fed/json-simple-1.1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.leangen.geantyref/geantyref/1.3.11/bc9c03b53917314d21fe6276aceb08aa84bf80dd/geantyref-1.3.11.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.leangen.geantyref/geantyref/1.3.11/6d69c74f1f30dcfe85999b61c901cc0fc1b1979f/geantyref-1.3.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/a74c7f0a37046846e88d54f7cb6ea6d565c65f9c/HikariCP-5.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/9a803965be1f6709795aeaf17d7a71c18791dcda/HikariCP-5.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/71a1fdefa224da50f1db6306ce609981e20186c9/slf4j-api-1.7.30-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/a74c7f0a37046846e88d54f7cb6ea6d565c65f9c/HikariCP-5.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/9a803965be1f6709795aeaf17d7a71c18791dcda/HikariCP-5.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.77.Final/8d10e9e138dac52172dd83229bdc89197100c723/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.77.Final/e7e1b6e3608ce218acda7ec3dc6fb77938f5910/netty-transport-native-epoll-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.77.Final/5f051599ced83e119ddeda891f471c0613721e5c/netty-transport-native-epoll-4.1.77.Final-linux-aarch_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.77.Final/e7e1b6e3608ce218acda7ec3dc6fb77938f5910/netty-transport-native-epoll-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-native-macos/4.1.77.Final/ba23bed7fd221158b5064096f9f8e286b190250c/netty-resolver-dns-native-macos-4.1.77.Final-osx-x86_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-native-macos/4.1.77.Final/edfd4aea54326ee6b834d403e45bb89634dfaaf2/netty-resolver-dns-native-macos-4.1.77.Final-osx-aarch_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.82.Final/644041d1fa96a5d3130a29e8978630d716d76e38/netty-handler-4.1.82.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.82.Final/eb21430492b4087f179f378def9c101af2ceb3a3/netty-handler-4.1.82.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.77.Final/a5b9f6713bbfacccbaef27a567deb571222da723/netty-transport-native-kqueue-4.1.77.Final-osx-x86_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.77.Final/6f11ac58b78a668602c56a1b84b9f34827ad7937/netty-transport-native-kqueue-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.77.Final/1e3afd165dbde85b536dfbbd48b96d65fd1f5405/netty-transport-native-kqueue-4.1.77.Final-osx-aarch_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.77.Final/6f11ac58b78a668602c56a1b84b9f34827ad7937/netty-transport-native-kqueue-4.1.77.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.82.Final/3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce/netty-transport-native-unix-common-4.1.82.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.82.Final/93bda191a15bd338a03de553d63d539aa8e9ad46/netty-transport-native-unix-common-4.1.82.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.82.Final/b77200379acb345a9ffdece1c605e591ac3e4e0a/netty-codec-4.1.82.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.82.Final/cca3483023dc4ea2fecd674a43e6648104b93bef/netty-codec-4.1.82.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.82.Final/e431a218d91acb6476ccad5f5aafde50aa3945ca/netty-transport-4.1.82.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.82.Final/a7d580e125df85b115e42a00ee7adfb2b81b3367/netty-transport-4.1.82.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.82.Final/a544270cf1ae8b8077082f5036436a9a9971ea71/netty-buffer-4.1.82.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.82.Final/6eca8b1b4342f92f178eabf50fbdb9a6732fb350/netty-buffer-4.1.82.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.82.Final/38f665ae8dcd29032eea31245ba7806bed2e0fa8/netty-resolver-4.1.82.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.82.Final/7855042d98fd07633901c09987d814f0e49f1b21/netty-resolver-4.1.82.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.82.Final/22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3/netty-common-4.1.82.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.82.Final/66841700234dd5771962ec51d940813d421329bf/netty-common-4.1.82.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/green/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/10dacb8b36398debceca36cd0db5f3316967f80e/checker-qual-3.12.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>
