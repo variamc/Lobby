@@ -31,7 +31,7 @@ object LobbyItems {
 
         player.inventory.clear()
 
-        val navigator = itemStack(Material.MUSIC_DISC_CAT) {
+        val navigator = itemStack(Material.COMPASS) {
             amount = 1
             val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.navigator"))
             meta {
@@ -39,43 +39,43 @@ object LobbyItems {
             }
         }
 
-        val playerHider = itemStack(Material.TOTEM_OF_UNDYING) {
+        val lobbySwitcher = itemStack(Material.NETHER_STAR) {
             amount = 1
-            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.playerhider"))
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.lobbyswitcher"))
             meta {
                 name = parsedMessage
             }
         }
 
-        val gadget = itemStack(Material.FIREWORK_STAR) {
+        val stock = itemStack(Material.CHEST) {
             amount = 1
-            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.nogadget"))
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.stock"))
             meta {
                 name = parsedMessage
             }
         }
 
-        val inventory = itemStack(Material.HOPPER_MINECART) {
+        val friends = itemStack(Material.SKELETON_SKULL) {
             amount = 1
-            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.inventory"))
-            meta {
-                name = parsedMessage
-            }
-        }
-
-        val profile = itemStack(Material.SKELETON_SKULL) {
-            amount = 1
-            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.profile"))
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.friends"))
             meta {
                 name = parsedMessage
                 (this as SkullMeta).owningPlayer = player
             }
         }
 
-        player.inventory.setItem(1, navigator)
-        player.inventory.setItem(2, playerHider)
-        player.inventory.setItem(4, gadget)
-        player.inventory.setItem(6, inventory)
-        player.inventory.setItem(7, profile)
+        val settings = itemStack(Material.COMPARATOR) {
+            amount = 1
+            val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.settings"))
+            meta {
+                name = parsedMessage
+            }
+        }
+
+        player.inventory.setItem(0, navigator)
+        player.inventory.setItem(1, lobbySwitcher)
+        player.inventory.setItem(4, stock)
+        player.inventory.setItem(7, friends)
+        player.inventory.setItem(8, settings)
     }
 }

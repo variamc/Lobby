@@ -58,7 +58,8 @@ bukkit {
     main = "$group.lobby.Lobby"
     version = version.toString()
     libraries = listOf(
-        "net.axay:kspigot:1.19.0"
+        "net.axay:kspigot:1.19.0",
+        "io.github.variamc:CoreAPI:1.1-SNAPSHOT"
     )
     commands {
         register("formatting") {
