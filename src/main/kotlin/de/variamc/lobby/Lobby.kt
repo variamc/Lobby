@@ -10,12 +10,15 @@ import net.axay.kspigot.extensions.console
 import net.axay.kspigot.extensions.onlinePlayers
 import net.axay.kspigot.main.KSpigot
 import net.axay.kspigot.sound.sound
+import org.bukkit.NamespacedKey
 import org.bukkit.Sound
 
 /**
  * Class created by Kaseax on 2022
  */
 class Lobby : KSpigot() {
+
+    internal val clickActionKey = NamespacedKey(INSTANCE, "clickAction")
 
     companion object {
         lateinit var INSTANCE: Lobby; private set

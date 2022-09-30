@@ -1,5 +1,6 @@
 package de.variamc.lobby.functionality
 
+import de.variamc.lobby.Lobby
 import de.variamc.lobby.utils.texture
 import net.axay.kspigot.chat.KColors
 import net.axay.kspigot.chat.literalText
@@ -11,11 +12,13 @@ import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.minimessage.MiniMessage
 import org.apache.commons.lang.LocaleUtils
 import org.bukkit.Material
+import org.bukkit.NamespacedKey
 import org.bukkit.entity.Player
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.event.player.PlayerRespawnEvent
 import org.bukkit.inventory.ItemStack
 import org.bukkit.inventory.meta.SkullMeta
+import org.bukkit.persistence.PersistentDataType
 import java.util.ResourceBundle
 
 /**
@@ -36,6 +39,7 @@ object LobbyItems {
             val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.navigator"))
             meta {
                 name = parsedMessage
+                persistentDataContainer[Lobby.INSTANCE.clickActionKey, PersistentDataType.INTEGER] = ClickAction.OPEN_NAVIGATOR.id
             }
         }
 

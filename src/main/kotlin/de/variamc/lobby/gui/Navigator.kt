@@ -27,7 +27,6 @@ object Navigator {
     //val resourceBundle: ResourceBundle = ResourceBundle.getBundle("lang.lobby", LocaleUtils.toLocale(LanguageAPI.getLanguage(player.getUniqueId().toString())
     var mm = MiniMessage.miniMessage();
 
-   val interactListener = listen<PlayerInteractEvent> {
        val gui = kSpigotGUI(GUIType.FIVE_BY_NINE) {
            val inventoryTitle: Component = mm.deserialize(resourceBundle.getString("navigator.title"))
            title = inventoryTitle
@@ -244,4 +243,3 @@ object Navigator {
            }
        }
    }
-}
