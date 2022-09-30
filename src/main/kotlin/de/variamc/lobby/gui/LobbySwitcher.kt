@@ -28,7 +28,6 @@ object LobbySwitcher {
     //val resourceBundle: ResourceBundle = ResourceBundle.getBundle("lang.lobby", LocaleUtils.toLocale(LanguageAPI.getLanguage(player.getUniqueId().toString())
     var mm = MiniMessage.miniMessage();
 
-    val interactListener = listen<PlayerInteractEvent> {
         val gui = kSpigotGUI(GUIType.ONE_BY_NINE) {
             val inventoryTitle: Component = mm.deserialize(resourceBundle.getString("lobbySwitcher.title"))
             title = inventoryTitle
@@ -48,4 +47,3 @@ object LobbySwitcher {
             }
         }
     }
-}

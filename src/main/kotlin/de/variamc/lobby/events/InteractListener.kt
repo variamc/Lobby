@@ -2,6 +2,7 @@ package de.variamc.lobby.events
 
 import de.variamc.lobby.Lobby
 import de.variamc.lobby.functionality.ClickAction
+import de.variamc.lobby.gui.LobbySwitcher
 import de.variamc.lobby.gui.Navigator
 import net.axay.kspigot.event.listen
 import net.axay.kspigot.gui.openGUI
@@ -19,6 +20,7 @@ fun interactListener() {
                 val action = item.itemMeta.persistentDataContainer[Lobby.INSTANCE.clickActionKey, PersistentDataType.INTEGER]
                 when (action) {
                     ClickAction.OPEN_NAVIGATOR.id -> it.player.openGUI(Navigator.gui)
+                    ClickAction.OPEN_LOBBYSWITCHER.id -> it.player.openGUI(LobbySwitcher.gui)
                 }
             }
     }

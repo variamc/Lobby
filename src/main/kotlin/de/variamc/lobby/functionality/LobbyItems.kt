@@ -48,6 +48,7 @@ object LobbyItems {
             val parsedMessage: Component = mm.deserialize(resourceBundle.getString("hotbar.lobbyswitcher"))
             meta {
                 name = parsedMessage
+                persistentDataContainer[Lobby.INSTANCE.clickActionKey, PersistentDataType.INTEGER] = ClickAction.OPEN_LOBBYSWITCHER.id
             }
         }
 
