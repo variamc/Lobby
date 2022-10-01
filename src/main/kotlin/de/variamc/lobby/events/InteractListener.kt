@@ -4,6 +4,7 @@ import de.variamc.lobby.Lobby
 import de.variamc.lobby.functionality.ClickAction
 import de.variamc.lobby.gui.LobbySwitcher
 import de.variamc.lobby.gui.Navigator
+import de.variamc.lobby.gui.Stock
 import net.axay.kspigot.event.listen
 import net.axay.kspigot.gui.openGUI
 import org.bukkit.event.player.PlayerInteractEvent
@@ -21,6 +22,7 @@ fun interactListener() {
                 when (action) {
                     ClickAction.OPEN_NAVIGATOR.id -> it.player.openGUI(Navigator.gui)
                     ClickAction.OPEN_LOBBYSWITCHER.id -> it.player.openGUI(LobbySwitcher.gui)
+                    ClickAction.OPEN_STOCK.id -> it.player.openGUI(Stock.gui)
                 }
             }
     }

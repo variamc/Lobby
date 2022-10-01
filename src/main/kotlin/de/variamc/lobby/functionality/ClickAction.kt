@@ -9,5 +9,6 @@ import org.bukkit.NamespacedKey
 enum class ClickAction(val id: Int) {
 
     OPEN_NAVIGATOR(1),
-    OPEN_LOBBYSWITCHER(2)
+    OPEN_LOBBYSWITCHER(2),
+    OPEN_STOCK(3)
 }
