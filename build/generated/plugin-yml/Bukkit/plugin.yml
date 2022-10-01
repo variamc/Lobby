@@ -6,7 +6,4 @@ authors:
  - Kaseax
 libraries:
  - net.axay:kspigot:1.19.0
-commands:
-  formatting:
-    description: "Zeigt dir an, welche Formatierungsoptionen du hast."
 api-version: 1.19

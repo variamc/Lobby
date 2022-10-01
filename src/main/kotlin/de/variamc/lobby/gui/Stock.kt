@@ -37,7 +37,7 @@ object Stock {
 
             placeholder(Slots.RowThreeSlotTwo rectTo Slots.RowThreeSlotEight, ItemStack(Material.WHITE_STAINED_GLASS_PANE))
 
-            button(Slots.RowTwoSlotTwo, itemStack(Material.NAME_TAG) {
+            button(Slots.RowFourSlotTwo, itemStack(Material.NAME_TAG) {
                 meta {
                     val titles: Component = mm.deserialize(resourceBundle.getString("stock.titles"))
                     name = titles
@@ -46,7 +46,7 @@ object Stock {
 
             }
 
-            button(Slots.RowFourSlotTwo, itemStack(Material.LIME_DYE) {
+            button(Slots.RowTwoSlotTwo, itemStack(Material.LIME_DYE) {
                 meta {
                     val visible: Component = mm.deserialize(resourceBundle.getString("stock.visible"), Placeholder.component("cosmetic", Component.text("Title")))
                     name = visible
@@ -55,7 +55,7 @@ object Stock {
 
             }
 
-            button(Slots.RowTwoSlotThree, itemStack(Material.BONE) {
+            button(Slots.RowFourSlotThree, itemStack(Material.BONE) {
                 meta {
                     val pets: Component = mm.deserialize(resourceBundle.getString("stock.pets"))
                     name = pets
@@ -64,7 +64,7 @@ object Stock {
 
             }
 
-            button(Slots.RowFourSlotThree, itemStack(Material.LIME_DYE) {
+            button(Slots.RowTwoSlotThree, itemStack(Material.LIME_DYE) {
                 meta {
                     val visible: Component = mm.deserialize(resourceBundle.getString("stock.visible"), Placeholder.component("cosmetic", Component.text("Pet")))
                     name = visible
@@ -73,7 +73,7 @@ object Stock {
 
             }
 
-            button(Slots.RowTwoSlotFour, itemStack(Material.BLAZE_POWDER) {
+            button(Slots.RowFourSlotFour, itemStack(Material.BLAZE_POWDER) {
                 meta {
                     val particles: Component = mm.deserialize(resourceBundle.getString("stock.particles"))
                     name = particles
@@ -82,7 +82,7 @@ object Stock {
 
             }
 
-            button(Slots.RowFourSlotFour, itemStack(Material.LIME_DYE) {
+            button(Slots.RowTwoSlotFour, itemStack(Material.LIME_DYE) {
                 meta {
                     val visible: Component = mm.deserialize(resourceBundle.getString("stock.visible"), Placeholder.component("cosmetic", Component.text("Particle")))
                     name = visible
@@ -91,7 +91,7 @@ object Stock {
 
             }
 
-            button(Slots.RowTwoSlotFive, itemStack(Material.RED_WOOL) {
+            button(Slots.RowFourSlotFive, itemStack(Material.RED_WOOL) {
                 meta {
                     val balloons: Component = mm.deserialize(resourceBundle.getString("stock.balloons"))
                     name = balloons
@@ -100,7 +100,7 @@ object Stock {
 
             }
 
-            button(Slots.RowFourSlotFive, itemStack(Material.LIME_DYE) {
+            button(Slots.RowTwoSlotFive, itemStack(Material.LIME_DYE) {
                 meta {
                     val visible: Component = mm.deserialize(resourceBundle.getString("stock.visible"), Placeholder.component("cosmetic", Component.text("Balloon")))
                     name = visible
@@ -109,7 +109,7 @@ object Stock {
 
             }
 
-            button(Slots.RowTwoSlotSix, itemStack(Material.NETHERITE_CHESTPLATE) {
+            button(Slots.RowFourSlotSix, itemStack(Material.NETHERITE_CHESTPLATE) {
                 meta {
                     val armor: Component = mm.deserialize(resourceBundle.getString("stock.armor"))
                     name = armor
@@ -118,7 +118,7 @@ object Stock {
 
             }
 
-            button(Slots.RowFourSlotSix, itemStack(Material.LIME_DYE) {
+            button(Slots.RowTwoSlotSix, itemStack(Material.LIME_DYE) {
                 meta {
                     val visible: Component = mm.deserialize(resourceBundle.getString("stock.visible"), Placeholder.component("cosmetic", Component.text("Armor")))
                     name = visible
@@ -127,7 +127,7 @@ object Stock {
 
             }
 
-            button(Slots.RowTwoSlotSeven, itemStack(Material.FIREWORK_ROCKET) {
+            button(Slots.RowFourSlotSeven, itemStack(Material.FIREWORK_ROCKET) {
                 meta {
                     val abilities: Component = mm.deserialize(resourceBundle.getString("stock.abilities"))
                     name = abilities
@@ -136,7 +136,7 @@ object Stock {
 
             }
 
-            button(Slots.RowFourSlotSeven, itemStack(Material.LIME_DYE) {
+            button(Slots.RowTwoSlotSeven, itemStack(Material.LIME_DYE) {
                 meta {
                     val visible: Component = mm.deserialize(resourceBundle.getString("stock.visible"), Placeholder.component("cosmetic", Component.text("Abilitie")))
                     name = visible
