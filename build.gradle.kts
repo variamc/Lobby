@@ -26,7 +26,7 @@ dependencies {
     // KSpigot Dependency
     implementation("net.axay:kspigot:1.19.0")
 
-    implementation("io.github.variamc:CoreAPI:1.1-SNAPSHOT")
+    implementation("io.github.variamc:CoreAPI:1.2-SNAPSHOT")
 }
 
 
@@ -58,12 +58,6 @@ bukkit {
     main = "$group.lobby.Lobby"
     version = version.toString()
     libraries = listOf(
-        "net.axay:kspigot:1.19.0",
-        "io.github.variamc:CoreAPI:1.1-SNAPSHOT"
+        "net.axay:kspigot:1.19.0"
     )
-    commands {
-        register("formatting") {
-            description = "Zeigt dir an, welche Formatierungsoptionen du hast."
-        }
-    }
 }

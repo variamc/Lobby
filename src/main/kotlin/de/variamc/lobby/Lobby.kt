@@ -1,5 +1,6 @@
 package de.variamc.lobby
 
+import de.variamc.lobby.events.interactListener
 import de.variamc.lobby.events.joinListener
 import de.variamc.lobby.functionality.ElytraLauncher
 import de.variamc.lobby.functionality.LobbyItems
@@ -18,7 +19,7 @@ import org.bukkit.Sound
  */
 class Lobby : KSpigot() {
 
-    internal val clickActionKey = NamespacedKey(INSTANCE, "clickAction")
+    internal val clickActionKey = NamespacedKey(this, "clickAction")
 
     companion object {
         lateinit var INSTANCE: Lobby; private set
@@ -31,6 +32,7 @@ class Lobby : KSpigot() {
 
     override fun startup() {
         joinListener()
+        interactListener()
         ElytraLauncher.enable()
 
 

@@ -12,7 +12,10 @@ import net.axay.kspigot.items.itemStack
 import net.axay.kspigot.items.meta
 import net.axay.kspigot.items.name
 import net.kyori.adventure.text.Component
+import net.kyori.adventure.text.format.Style
+import net.kyori.adventure.text.format.TextDecoration
 import net.kyori.adventure.text.minimessage.MiniMessage
+import net.minecraft.world.level.levelgen.GenerationStep.Decoration
 import org.apache.commons.lang.LocaleUtils
 import org.bukkit.Material
 import org.bukkit.event.player.PlayerInteractEvent
@@ -35,11 +38,11 @@ object Navigator {
                    meta {
                        name = literalText("Modus1") {
                            color = KColors.GOLD
-                       }
+                       }.style(Style.style(TextDecoration.ITALIC))
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -52,9 +55,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -67,9 +70,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -82,9 +85,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -97,9 +100,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -112,9 +115,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -127,9 +130,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -142,9 +145,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -157,9 +160,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -172,9 +175,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -187,9 +190,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -202,9 +205,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
@@ -217,8 +220,8 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
+                           +"A Description."
+                           +""
                            "§8» §e" + Lobby.INSTANCE.server.onlinePlayers + " players §aONLINE"
                        }
                    }
@@ -232,9 +235,9 @@ object Navigator {
                            color = KColors.GOLD
                        }
                        addLore {
-                           "A Description."
-                           ""
-                           "§8» §e1 players §aONLINE"
+                           +"A Description."
+                           +""
+                           +"§8» §e1 players §aONLINE"
                        }
                    }
                }) { clickEvent ->
