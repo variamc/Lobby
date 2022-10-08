@@ -2,6 +2,7 @@ package de.variamc.lobby.events
 
 import de.variamc.lobby.Lobby
 import de.variamc.lobby.functionality.ClickAction
+import de.variamc.lobby.gui.Friends
 import de.variamc.lobby.gui.LobbySwitcher
 import de.variamc.lobby.gui.Navigator
 import de.variamc.lobby.gui.Stock
@@ -23,6 +24,7 @@ fun interactListener() {
                     ClickAction.OPEN_NAVIGATOR.id -> it.player.openGUI(Navigator.gui)
                     ClickAction.OPEN_LOBBYSWITCHER.id -> it.player.openGUI(LobbySwitcher.gui)
                     ClickAction.OPEN_STOCK.id -> it.player.openGUI(Stock.gui)
+                    ClickAction.OPEN_FRIENDS.id -> it.player.openGUI(Friends.gui)
                 }
             }
     }

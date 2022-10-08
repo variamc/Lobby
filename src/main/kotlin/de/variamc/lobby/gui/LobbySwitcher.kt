@@ -24,7 +24,6 @@ import java.util.*
 object LobbySwitcher {
 
     val resourceBundle: ResourceBundle = ResourceBundle.getBundle("lang.lobby", LocaleUtils.toLocale("en_US"))
-
     //val resourceBundle: ResourceBundle = ResourceBundle.getBundle("lang.lobby", LocaleUtils.toLocale(LanguageAPI.getLanguage(player.getUniqueId().toString())
     var mm = MiniMessage.miniMessage();
 
